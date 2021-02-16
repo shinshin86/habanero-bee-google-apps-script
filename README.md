@@ -24,6 +24,7 @@ Also, set up an item in each of the first columns.
 * title
 * description
 * logoImage
+* logoImageAltText
 * websiteLink
 * twitterLink
 * instagramLink
