@@ -53,6 +53,7 @@ Also, set up an item in each of the first columns.
 * imageAltText
 * slug
 * externalLinkUrl
+* externalLinkText
 * tags
 
 
