@@ -90,7 +90,7 @@ Enter the meta information for the site.
 * tags
   * A tags for each page. When you set a tag, the page for the tag you set will also be generated.
 
-## How to setup and release
+## How to release
 
 Once the setup of Google Spreadsheet is complete, we will configure Google Apps Script and release it as a web app.
 
