@@ -152,3 +152,9 @@ URLを保存したら、完了を押します。
 お疲れさまです。これで [Habanero Bee](https://github.com/shinshin86/habanero-bee) からGoogleスプレッドシートの情報を参照するためのセットアップ作業は完了です。
 
 ![生成されたURLをコピーして完了](./images/ja/setup-07.png)
+
+## Licence
+[MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)
+
+## Author
+[Yuki Shindo](https://shinshin86.com)

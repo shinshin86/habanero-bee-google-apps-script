@@ -153,3 +153,9 @@ After saving the URL, press Done.
 Thank you for your time. This completes the release process necessary to reference the information in the [Google Sheets](https://github.com/shinshin86/habanero-bee) from Habanero Bee.
 
 ![Copy the generated URL and you're done.](./images/ja/setup-07.png)
+
+## Licence
+[MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)
+
+## Author
+[Yuki Shindo](https://shinshin86.com)
