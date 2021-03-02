@@ -44,6 +44,8 @@
 * tumblrLink
 * patreonLink
 * quoraLink
+* backgroundColor
+  * 背景色を設定するオプションです。変更しない場合は入力する必要はありません。
 
 #### meta
 
