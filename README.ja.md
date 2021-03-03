@@ -35,15 +35,10 @@
   * サイトのロゴ画像
 * logoImageAltText
   * サイトのロゴ画像のAltテキスト
-* websiteLink
-  * 他にもサイトをお持ちの方は、サイトURLを入力してください。
-* twitterLink
-* instagramLink
-* facebookLink
-* githubLink
-* tumblrLink
-* patreonLink
-* quoraLink
+* externalLinkUrl
+  * 外部ページへのリンクがある場合は入力してください。また、カンマ区切りで複数のリンクを設定することが可能です。複数のリンクを設定する場合は、必ず下の`externalLinkText`も同じ順序で設定していく必要があります。
+* externalLinkText
+  * 外部ページへのリンクがある場合は、リンクに表示するテキストも入力してください。何も入力しない場合、デフォルトでは `Read` が表示されます。
 * backgroundColor
   * 背景色を設定するオプションです。変更しない場合は入力する必要はありません。
 * pageTopButtonColor
@@ -86,7 +81,7 @@
 * slug
   * ページのslug(URL)
 * externalLinkUrl
-  * 外部ページへのリンクがある場合は入力してください。
+  * 外部ページへのリンクがある場合は入力してください。また、カンマ区切りで複数のリンクを設定することが可能です。複数のリンクを設定する場合は、必ず下の`externalLinkText`も同じ順序で設定していく必要があります。
 * externalLinkText
   * 外部ページへのリンクがある場合は、リンクに表示するテキストも入力してください。何も入力しない場合、デフォルトでは `Read` が表示されます。
 * tags

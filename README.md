@@ -39,15 +39,10 @@ For `general` and `meta`, you only need to add values to the second column, but 
   * Site logo(Site image)
 * logoImageAltText
   * Site logo alt text
-* websiteLink
-  * If you have another site, please enter your site URL.
-* twitterLink
-* instagramLink
-* facebookLink
-* githubLink
-* tumblrLink
-* patreonLink
-* quoraLink
+* externalLinkUrl
+  * If you have a link to an external page, please enter it. It is also possible to set multiple links separated by commas. If you set multiple links, you must make sure to set the `externalLinkText` below in the same order.
+* externalLinkText
+  * If you have a link to an external page, please enter the text of the link. If nothing is entered, it will be set to `Read` by default.
 * backgroundColor
   * This is option of set background color. If you do not want to change it, you do not need to enter it.
 * pageTopButtonColor
@@ -88,7 +83,7 @@ Enter the meta information for the site.
 * slug
   * A slug(URL) for each page
 * externalLinkUrl
-  * If you have a link to an external page, please enter it.
+  * If you have a link to an external page, please enter it. It is also possible to set multiple links separated by commas. If you set multiple links, you must make sure to set the `externalLinkText` below in the same order.
 * externalLinkText
   * If you have a link to an external page, please enter the text of the link. If nothing is entered, it will be set to `Read` by default.
 * tags
