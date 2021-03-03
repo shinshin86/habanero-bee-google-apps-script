@@ -50,6 +50,8 @@ For `general` and `meta`, you only need to add values to the second column, but 
 * quoraLink
 * backgroundColor
   * This is option of set background color. If you do not want to change it, you do not need to enter it.
+* pageTopButtonColor
+  * This is option of set page top button color. If you do not want to change it, you do not need to enter it.
 
 #### meta
 
