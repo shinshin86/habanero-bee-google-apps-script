@@ -99,9 +99,9 @@ By doing this, you will be able to refer to the data of Google Spreadsheet from 
 
 
 
-### 1. Open the Script Editor from Google Sheets
+### 1. Open the Script editor from Google Sheets
 
-![Open the Script Editor from Google Sheets](./images/ja/setup-01.png)
+![Open the Script Editor from Google Sheets](./images/en/setup-01.png)
 
 
 
@@ -109,39 +109,39 @@ By doing this, you will be able to refer to the data of Google Spreadsheet from 
 
 Copy the [Google Apps Script code exists here](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs) into the editor as shown in the capture, and then click the Deploy button.
 
-![Enter the Google Apps Script and click the Deploy button.](./images/ja/setup-02.png)
+![Enter the Google Apps Script and click the Deploy button.](./images/en/setup-02.png)
 
 
 
-### 3. Select New Deployment
+### 3. Select New deployment
 
-![Select New Deployment](./images/ja/setup-03.png)
+![Select New Deployment](./images/en/setup-03.png)
 
-### 4. Select "Web App" for the type selection and set the accessible users to "All".
+### 4. Select "Web app" for the type selection and set the accessible users to "Anyone".
 
-The `accessible users` field should be set to its default state.
-(`Myself (my email address is shown here)` is selected)
+The `Execute as` field should be set to its default state.
+(`Me (my email address is shown here)` is selected)
 
-![Select "Web App" for the type selection and set the accessible users to "All".](./images/ja/setup-04.png)
+![Select "Web App" for the type selection and set the accessible users to "All".](./images/en/setup-04.png)
 
-### 5. Approve access and press Done.
+### 5. Authorize access and press Done.
 
-When you press Approve Access, you will be asked if you want to approve it. It will be explained in section 6 after this.
+When you press `Authorize access`, you will be asked if you want to authorize access it. It will be explained in section 6 after this.
 
-![Approve access and press Done.](./images/ja/setup-05.png)
+![Approve access and press Done.](./images/en/setup-05.png)
 
-### 6. Approve
+### 6. Authorize access
 
-When approving, just follow the screen that appears and you should be good to go.
+When authorize access, just follow the screen that appears and you should be good to go.
 However, there is one part that is difficult to understand, so I will explain it here.
 
 When you are approving, you will see a screen like the one below.
-(At first, the text at the bottom of the screen is not displayed until you show the details.)
+(At first, the text at the bottom of the screen is not displayed until you show advanced.)
 
-Once the text at the bottom of the screen is displayed, select `Go to untitled project (insecure page)` and follow the on-screen instructions to approve the project after it is moved.
+Once the text at the bottom of the screen is displayed, select `Go to Untitled project (unsafe)` and follow the on-screen instructions to approve the project after it is moved.
 (The text in the screen will say `Untitled project`, but the wording will vary depending on the project name you set).
 
-![Approve](./images/ja/setup-06.png)
+![Approve](./images/en/setup-06.png)
 
 ### 7. Copy the generated URL and you're done.
 
@@ -151,7 +151,7 @@ After saving the URL, press Done.
 
 Thank you for your time. This completes the release process necessary to reference the information in the [Google Sheets](https://github.com/shinshin86/habanero-bee) from Habanero Bee.
 
-![Copy the generated URL and you're done.](./images/ja/setup-07.png)
+![Copy the generated URL and you're done.](./images/en/setup-07.png)
 
 ## Licence
 [MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)
