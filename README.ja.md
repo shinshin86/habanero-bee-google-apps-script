@@ -112,7 +112,7 @@ Google スプレッドシートのセットアップが完了したら、Google 
 
 ### 2. Google Apps Scriptを入力し、デプロイボタンを押す
 
-[こちらに記載されているGoogle Apps Scriptのコード](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs)をキャプチャのようにエディタ内にコピーしてから、デプロイボタンを押してください。
+[こちらに記載されているGoogle Apps Scriptのコード](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs)をキャプチャのようにエディタ内にコピーして保存してから、デプロイボタンを押してください。
 
 ![Google Apps Scriptを入力し、デプロイボタンを押す](./images/ja/setup-02.png)
 

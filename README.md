@@ -112,7 +112,7 @@ By doing this, you will be able to refer to the data of Google Spreadsheet from 
 
 ### 2. Enter the Google Apps Script and click the Deploy button.
 
-Copy the [Google Apps Script code exists here](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs) into the editor as shown in the capture, and then click the Deploy button.
+Copy the [Google Apps Script code exists here](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs) into the editor as shown in the capture, save it, and then click the Deploy button.
 
 ![Enter the Google Apps Script and click the Deploy button.](./images/en/setup-02.png)
 
