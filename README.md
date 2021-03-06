@@ -66,6 +66,8 @@ Enter the meta information for the site.
   * If you want to set up Google Analytics, please enter it.
 * googleSiteVerificationCode
   * If you do not want to set up Google Analytics, but only Google Search Console, please set up a `Google Site Verification Code` here.
+* noindex
+  * If you do not want search engines to index your site, enter `1` in this field.
 
 #### content
 

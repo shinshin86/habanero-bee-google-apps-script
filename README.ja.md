@@ -62,6 +62,8 @@
   * Googleアナリティクスを設定したい方は入力してください。
 * googleSiteVerificationCode
   * Googleアナリティクスを設定せずにGoogle Search Consoleだけを設定したい場合は、こちらで`Google Site Verification Code`を設定してください。
+* noindex
+  * 検索エンジンにインデックスさせたくない場合は、こちらの項目に`1`を入力してください。
 
 #### content
 コンテンツは必要な分だけ、行を追加して追加してください。
