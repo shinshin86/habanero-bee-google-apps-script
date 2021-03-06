@@ -47,8 +47,6 @@ For `general` and `meta`, you only need to add values to the second column, but 
   * This is option of set background color. If you do not want to change it, you do not need to enter it.
 * pageTopButtonColor
   * This is option of set page top button color. If you do not want to change it, you do not need to enter it.
-* isNoindex
-  * If you do not want search engines to index your site, enter `1` in this field.
 
 #### meta
 
@@ -68,6 +66,8 @@ Enter the meta information for the site.
   * If you want to set up Google Analytics, please enter it.
 * googleSiteVerificationCode
   * If you do not want to set up Google Analytics, but only Google Search Console, please set up a `Google Site Verification Code` here.
+* isNoindex
+  * If you do not want search engines to index your site, enter `1` in this field.
 
 #### content
 
