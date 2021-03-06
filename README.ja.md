@@ -1,3 +1,5 @@
+![habanero-bee-google-apps-script logo](https://user-images.githubusercontent.com/8216064/110191463-ec8a0200-7e6b-11eb-81d5-8b162402c18d.png)
+
 # habanero-bee-google-apps-script
 
 これは [Habanero Bee](https://github.com/shinshin86/habanero-bee) というオープンソースのCMSソフトウェアで利用される、Google Apps Scriptです。

@@ -1,3 +1,5 @@
+![habanero-bee-google-apps-script logo](https://user-images.githubusercontent.com/8216064/110191463-ec8a0200-7e6b-11eb-81d5-8b162402c18d.png)
+
 # habanero-bee-google-apps-script
 
 This is Google Apps Script, which is used in an open source CMS software called [Habanero Bee](https://github.com/shinshin86/habanero-bee).
