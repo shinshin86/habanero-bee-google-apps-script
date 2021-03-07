@@ -1,25 +1,25 @@
-function getSheetData(sheetName) {
-  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
-  var rows = sheet.getDataRange().getValues();
+const getSheetData = sheetName => {
+  const sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  const rows = sheet.getDataRange().getValues();
 
   // Get keys(rows[0]) and Delete rows[0]
-  var keys = rows.splice(0,1)[0];
+  const keys = rows.splice(0,1)[0];
 
-  return rows.map(function(row) {
+  return rows.map((row) => {
     var obj = {};
-    row.map(function(item, index) {
+    row.map((item, index) => {
       obj[String(keys[index])] = String(item);
     });
     return obj;
   });
 }
 
-function doGet() {
-  var general = getSheetData('general')[0];
-  var meta = getSheetData('meta')[0];
-  var content = getSheetData('content');
+const doGet = () => {
+  const general = getSheetData('general')[0];
+  const meta = getSheetData('meta')[0];
+  const content = getSheetData('content');
 
-  var data = { general, meta, content };
+  const data = { general, meta, content };
 
   return ContentService.createTextOutput(JSON.stringify(data))
     .setMimeType(ContentService.MimeType.JSON);
