@@ -92,6 +92,7 @@ Enter the meta information for the site.
   * If you have a link to an external page, please enter the text of the link. If nothing is entered, it will be set to `Read` by default.
 * tags
   * A tags for each page. When you set a tag, the page for the tag you set will also be generated.
+  * Please enter tags separated by commas.
 * publishedDate
   * Publication date of the content. This is optional, so if you don't want to specify a publish date, you don't need to enter it.
 * dateFormat
