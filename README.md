@@ -86,6 +86,7 @@ Enter the meta information for the site.
   * A image alt text for each page
 * slug
   * A slug(URL) for each page
+  * Can't use `/` (slash) in slug.
 * externalLinkUrl
   * If you have a link to an external page, please enter it. It is also possible to set multiple links separated by commas. If you set multiple links, you must make sure to set the `externalLinkText` below in the same order.
 * externalLinkText
@@ -93,6 +94,7 @@ Enter the meta information for the site.
 * tags
   * A tags for each page. When you set a tag, the page for the tag you set will also be generated.
   * Please enter tags separated by commas.
+  * Can't use `/` (slash) in tags.
 * publishedDate
   * Publication date of the content. This is optional, so if you don't want to specify a publish date, you don't need to enter it.
 * dateFormat
