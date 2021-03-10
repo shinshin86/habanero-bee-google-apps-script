@@ -12,6 +12,8 @@
 これを利用するには、自分でGoogle スプレッドシートを設定する必要があります。
 ここではその設定方法を説明します。
 
+また、こちらに[Google スプレッドシートのテンプレート](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#)も用意しましたので、併せてご参照ください。
+
 ### シートの作成
 
 下記の３つのシートを作成します。

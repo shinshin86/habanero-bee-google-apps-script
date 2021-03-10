@@ -17,6 +17,8 @@ By setting this Google Apps Script and deploying it as a web app, you can refer 
 To use this, you need to set up Google Sheets by yourself.
 This section explains how to set it up.
 
+I have also prepared a [Google Sheets template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#) for you to use as well.
+
 ### Create three sheets
 
 Create three sheets.
