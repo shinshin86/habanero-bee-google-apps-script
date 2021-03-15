@@ -10,7 +10,24 @@ By setting this Google Apps Script and deploying it as a web app, you can refer 
 
 [日本語 README](./README.ja.md)
 
+## Table of Contents
 
+* [Setup Google Sheets](#setup-google-sheets)
+  * [Example](#example)
+  * [Create three sheets](#create-three-sheets)
+    * [general](#general)
+    * [meta](#meta)
+    * [content](#content)
+* [How to release](#how-to-release)
+  * [1. Open the Script editor from Google Sheets](#1-open-the-script-editor-from-google-sheets)
+  * [2. Enter the Google Apps Script and click the Deploy button.](#2-enter-the-google-apps-script-and-click-the-deploy-button)
+  * [3. Select New deployment](#3-select-new-deployment)
+  * [4. Select "Web app" for the type selection and set the accessible users to "Anyone".](#4-select-web-app-for-the-type-selection-and-set-the-accessible-users-to-anyone)
+  * [5. Authorize access and press Done.](#5-authorize-access-and-press-done)
+  * [6. Authorize access](#6-authorize-access)
+  * [7. Copy generated URL and you're done.](#7-copy-generated-url-and-youre-done)
+* [Licence](#licence)
+* [Authro](#author)
 
 ## Setup Google Sheets
 
@@ -164,9 +181,9 @@ Once the text at the bottom of the screen is displayed, select `Go to Untitled p
 
 ![Approve](./images/en/setup-06.png)
 
-### 7. Copy the generated URL and you're done.
+### 7. Copy generated URL and you're done.
 
-Please copy the URL of the generated web app. This URL will be used when [Habanero Bee](https://github.com/shinshin86/habanero-bee) is released, so please save it in Notepad or something.
+Please copy URL of generated web app. This URL will be used when [Habanero Bee](https://github.com/shinshin86/habanero-bee) is released, so please save it in Notepad or something.
 
 After saving the URL, press Done.
 
