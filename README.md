@@ -19,6 +19,13 @@ This section explains how to set it up.
 
 I have also prepared a [Google Sheets template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#) for you to use as well.
 
+### Example
+
+Also, there are some Google Sheets that I actually created as a demo, which you can refer to [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9ygk_IU67huhAajNNOtbd17-r1HndsGnkDL5D7DHRK7cwHE-ALe0w2guVQD7b5pBQNe0sPJdLyF5h/pubhtml).
+
+[Here's an endpoint](https://script.google.com/macros/s/AKfycbzFMeY9SFDVuGj9n0t2UaS2NNcLws03xdQj1Gt-J_JSlPeqmhmupakjzU8nSbpcuFbJmw/exec) that applies `habanero-bee-google-apps-script` to this spreadsheet so that it can be referenced by Habanero Bee.
+(When you access this, the content you set up in Google Sheets will be returned as JSON.)
+
 ### Create three sheets
 
 Create three sheets.

@@ -12,7 +12,14 @@
 これを利用するには、自分でGoogle スプレッドシートを設定する必要があります。
 ここではその設定方法を説明します。
 
-また、こちらに[Google スプレッドシートのテンプレート](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#)も用意しましたので、併せてご参照ください。
+こちらに[Google スプレッドシートのテンプレート](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#)も用意しましたので、併せてご参照ください。
+
+### 実際の作成例を見る
+
+また、実際に[デモとして作成したGoogle スプレッドシートの例](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9ygk_IU67huhAajNNOtbd17-r1HndsGnkDL5D7DHRK7cwHE-ALe0w2guVQD7b5pBQNe0sPJdLyF5h/pubhtml)もありますので、こちらもご参照ください。
+
+こちらのスプレッドシートに`habanero-bee-google-apps-script` を適用してHabanero Beeで参照できるようにした[エンドポイントはこちら](https://script.google.com/macros/s/AKfycbzFMeY9SFDVuGj9n0t2UaS2NNcLws03xdQj1Gt-J_JSlPeqmhmupakjzU8nSbpcuFbJmw/exec)です。
+(こちらにアクセスするとスプレッドシートに設定した内容がJSONとして返されます)
 
 ### シートの作成
 
