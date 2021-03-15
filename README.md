@@ -198,7 +198,7 @@ Thank you for your time. This completes the release process necessary to referen
 
 Markdown can be used only for the body of page (`content.text`).
 
-The following is a list of supported writing styles.
+The following is a list of supported writing styles.  
 (If you use any other writing style, layout may be broken in some cases)
 
 ```
