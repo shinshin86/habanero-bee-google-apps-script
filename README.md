@@ -26,6 +26,8 @@ By setting this Google Apps Script and deploying it as a web app, you can refer 
   * [5. Authorize access and press Done.](#5-authorize-access-and-press-done)
   * [6. Authorize access](#6-authorize-access)
   * [7. Copy generated URL and you're done.](#7-copy-generated-url-and-youre-done)
+* [Support Markdown](#support-markdown)
+  * [Embed YouTube](#embed-youtube)
 * [Licence](#licence)
 * [Authro](#author)
 
@@ -191,6 +193,73 @@ After saving the URL, press Done.
 Thank you for your time. This completes the release process necessary to reference the information in the [Google Sheets](https://github.com/shinshin86/habanero-bee) from Habanero Bee.
 
 ![Copy the generated URL and you're done.](./images/en/setup-07.png)
+
+## Support Markdown
+
+Markdown can be used only for the body of page (`content.text`).
+
+The following is a list of supported writing styles.
+(If you use any other writing style, layout may be broken in some cases)
+
+```
+### H3
+```
+
+### H3
+
+```
+#### H4
+```
+
+#### H4
+
+```
+##### H5
+```
+
+##### H5
+
+```
+###### H6
+```
+
+###### H6
+
+※ Due to structure of the page, `# h1` and `# h2` are not recommended to be used in Habanero Bee.
+
+```
+* list1
+* list2
+  * nest list1
+  * nest list2
+```
+
+- list1
+- list2
+  - nest list1
+  - nest list2
+
+Image
+
+```
+![Alt](Image URL)
+```
+
+![Habanero Bee abstract gif](https://user-images.githubusercontent.com/8216064/110764965-04f88300-8297-11eb-8977-cfc26ca137d2.gif)
+
+### Embed YouTube
+
+You can embed YouTube only in the body of page (`content.text`) using the following notation.
+
+```
+`youtube:<YouTube URL>`
+```
+
+Example:
+
+```
+`youtube:https://www.youtube.com/watch?v=gYJ03GyrSrM`
+```
 
 ## Licence
 [MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)

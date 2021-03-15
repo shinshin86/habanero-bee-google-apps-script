@@ -22,6 +22,8 @@
   * [5. アクセスの承認を行い、完了を押す](#5-アクセスの承認を行い完了を押す)
   * [6. 承認を行う](#6-承認を行う)
   * [7. 生成されたURLをコピーして完了](#7-生成されたurlをコピーして完了)
+* [Markdown記法](#markdown記法)
+  * [YouTube埋め込み](#youtube埋め込み)
 * [Licence](#licence)
 * [Author](#author)
 
@@ -192,6 +194,73 @@ URLを保存したら、完了を押します。
 お疲れさまです。これで [Habanero Bee](https://github.com/shinshin86/habanero-bee) からGoogleスプレッドシートの情報を参照するためのセットアップ作業は完了です。
 
 ![生成されたURLをコピーして完了](./images/ja/setup-07.png)
+
+## Markdown記法
+
+ページの本文(`content.text`)にのみ、Markdownを使用できます。
+
+対応している書き方については下記の通りです。
+(その他の書き方を行った場合、レイアウトが崩れるケースがあります)
+
+```
+### H3
+```
+
+### H3
+
+```
+#### H4
+```
+
+#### H4
+
+```
+##### H5
+```
+
+##### H5
+
+```
+###### H6
+```
+
+###### H6
+
+※ Habanero Beeで生成されるページの構造上、 `# h1` と`# h2` を使用することは非推奨となっています。
+
+```
+* list1
+* list2
+  * nest list1
+  * nest list2
+```
+
+- list1
+- list2
+  - nest list1
+  - nest list2
+
+Image
+
+```
+![Alt](Image URL)
+```
+
+![Habanero Bee abstract gif](https://user-images.githubusercontent.com/8216064/110764965-04f88300-8297-11eb-8977-cfc26ca137d2.gif)
+
+### YouTube埋め込み
+
+ページの本文(`content.text`)にのみ、下記の記法でYouTube埋め込みを行うことが可能です。
+
+```
+`youtube:<YouTube URL>`
+```
+
+例:
+
+```
+`youtube:https://www.youtube.com/watch?v=gYJ03GyrSrM`
+```
 
 ## Licence
 [MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)
