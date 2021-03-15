@@ -6,13 +6,41 @@
 
 こちらのGoogle Apps Scriptをセットしてウェブアプリとしてデプロイすることで、Google スプレッドシートで管理している情報を [Habanero Bee](https://github.com/shinshin86/habanero-bee) から参照することが可能となります。
 
+## 目次
+
+* [Google スプレッドシートのセットアップ](#google-スプレッドシートのセットアップ)
+  * [実際の作成例を見る](#実際の作成例を見る)
+  * [シートの作成](#シートの作成)
+    * [general](#general)
+    * [meta](#meta)
+    * [content](#content)
+* [ウェブアプリとしてのリリース手順](#ウェブアプリとしてのリリース手順)
+  * [1. Google スプレッドシートからスクリプトエディタを開く](#1-google-スプレッドシートからスクリプトエディタを開く)
+  * [2. Google Apps Scriptを入力し、デプロイボタンを押す](#2-google-apps-scriptを入力しデプロイボタンを押す)
+  * [3. 新しいデプロイを選択](#3-新しいデプロイを選択)
+  * [4. 種類の選択で「ウェブアプリ」を選択し、アクセスできるユーザーを「全員」に設定します](#4-種類の選択でウェブアプリを選択しアクセスできるユーザーを全員に設定します)
+  * [5. アクセスの承認を行い、完了を押す](#5-アクセスの承認を行い完了を押す)
+  * [6. 承認を行う](#6-承認を行う)
+  * [7. 生成されたURLをコピーして完了](#7-生成されたurlをコピーして完了)
+* [Markdown記法](#markdown記法)
+  * [YouTube埋め込み](#youtube埋め込み)
+* [Licence](#licence)
+* [Author](#author)
+
 
 ## Google スプレッドシートのセットアップ
 
 これを利用するには、自分でGoogle スプレッドシートを設定する必要があります。
 ここではその設定方法を説明します。
 
-また、こちらに[Google スプレッドシートのテンプレート](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#)も用意しましたので、併せてご参照ください。
+こちらに[Google スプレッドシートのテンプレート](https://docs.google.com/spreadsheets/d/e/2PACX-1vRbzmYKS3fUMynHxdG5mycdlOkO4y1trTyUXlRbGHE8qnnkZf5kWiaQv5x1rwEyCsisru-yfH4Te_XZ/pubhtml#)も用意しましたので、併せてご参照ください。
+
+### 実際の作成例を見る
+
+また、実際に[デモとして作成したGoogle スプレッドシートの例](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9ygk_IU67huhAajNNOtbd17-r1HndsGnkDL5D7DHRK7cwHE-ALe0w2guVQD7b5pBQNe0sPJdLyF5h/pubhtml)もありますので、こちらもご参照ください。
+
+こちらのスプレッドシートに`habanero-bee-google-apps-script` を適用してHabanero Beeで参照できるようにした[エンドポイントはこちら](https://script.google.com/macros/s/AKfycbzFMeY9SFDVuGj9n0t2UaS2NNcLws03xdQj1Gt-J_JSlPeqmhmupakjzU8nSbpcuFbJmw/exec)です。
+(こちらにアクセスするとスプレッドシートに設定した内容がJSONとして返されます)
 
 ### シートの作成
 
@@ -121,7 +149,8 @@ Google スプレッドシートのセットアップが完了したら、Google 
 
 ### 2. Google Apps Scriptを入力し、デプロイボタンを押す
 
-[こちらに記載されているGoogle Apps Scriptのコード](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs)をキャプチャのようにエディタ内にコピーして保存してから、デプロイボタンを押してください。
+[こちらに記載されているGoogle Apps Scriptのコード](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs)をキャプチャのようにエディタ内にコピーして保存してから、デプロイボタンを押してください。  
+(コードのバージョンによっては、実際のコードの内容がキャプチャのものとは異なる場合があります。)
 
 ![Google Apps Scriptを入力し、デプロイボタンを押す](./images/ja/setup-02.png)
 
@@ -148,10 +177,10 @@ Google スプレッドシートのセットアップが完了したら、Google 
 
 承認を行う際は、表示される画面に従うことで問題なく完了できますが、一点だけ分かりにくい箇所があるので、そちらについて説明します。
 
-承認の際に下記のような画面が表示されますが、この画面が出たら、`詳細を表示`をボタンを押して画面下部のテキストをまずは表示させます。
+承認の際に下記のような画面が表示されますが、この画面が出たら、`詳細を表示`をボタンを押して画面下部のテキストをまずは表示させます。  
 (最初、詳細を表示するまでは画面下部のテキストは表示されていません)
 
-画面下部のテキストを表示させたら、`無題のプロジェクト(安全ではないページ)に移動` を選択して、移動した後の画面で画面に従って承認を行います。
+画面下部のテキストを表示させたら、`無題のプロジェクト(安全ではないページ)に移動` を選択して、移動した後の画面で画面に従って承認を行います。  
 (画面内では`無題のプロジェクト` と表示されていますが、これは設定したプロジェクト名によって文言が異なります)
 
 ![承認を行う](./images/ja/setup-06.png)
@@ -165,6 +194,73 @@ URLを保存したら、完了を押します。
 お疲れさまです。これで [Habanero Bee](https://github.com/shinshin86/habanero-bee) からGoogleスプレッドシートの情報を参照するためのセットアップ作業は完了です。
 
 ![生成されたURLをコピーして完了](./images/ja/setup-07.png)
+
+## Markdown記法
+
+ページの本文(`content.text`)にのみ、Markdownを使用できます。
+
+対応している書き方については下記の通りです。  
+(その他の書き方を行った場合、レイアウトが崩れるケースがあります)
+
+```
+### H3
+```
+
+### H3
+
+```
+#### H4
+```
+
+#### H4
+
+```
+##### H5
+```
+
+##### H5
+
+```
+###### H6
+```
+
+###### H6
+
+※ Habanero Beeで生成されるページの構造上、 `# h1` と`# h2` を使用することは非推奨となっています。
+
+```
+* list1
+* list2
+  * nest list1
+  * nest list2
+```
+
+- list1
+- list2
+  - nest list1
+  - nest list2
+
+Image
+
+```
+![Alt](Image URL)
+```
+
+![Habanero Bee abstract gif](https://user-images.githubusercontent.com/8216064/110764965-04f88300-8297-11eb-8977-cfc26ca137d2.gif)
+
+### YouTube埋め込み
+
+ページの本文(`content.text`)にのみ、下記の記法でYouTube埋め込みを行うことが可能です。
+
+```
+`youtube:<YouTube URL>`
+```
+
+例:
+
+```
+`youtube:https://www.youtube.com/watch?v=gYJ03GyrSrM`
+```
 
 ## Licence
 [MIT](https://github.com/shinshin86/habanero-bee-google-apps-script/blob/main/LICENSE)
