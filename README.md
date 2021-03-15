@@ -147,7 +147,7 @@ By doing this, you will be able to refer to the data of Google Spreadsheet from 
 
 ### 2. Enter the Google Apps Script and click the Deploy button.
 
-Copy the [Google Apps Script code exists here](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs) into the editor as shown in the capture, save it, and then click the Deploy button.
+Copy the [Google Apps Script code exists here](https://raw.githubusercontent.com/shinshin86/habanero-bee-google-apps-script/main/habanero-bee-google-apps-script.gs) into the editor as shown in the capture, save it, and then click the Deploy button.  
 (Depending on version of the code, actual content of code may differ from that of capture.)
 
 ![Enter the Google Apps Script and click the Deploy button.](./images/en/setup-02.png)
@@ -176,10 +176,10 @@ When you press `Authorize access`, you will be asked if you want to authorize ac
 When authorize access, just follow the screen that appears and you should be good to go.
 However, there is one part that is difficult to understand, so I will explain it here.
 
-When you are approving, you will see a screen like the one below.
+When you are approving, you will see a screen like the one below.  
 (At first, the text at the bottom of the screen is not displayed until you show advanced.)
 
-Once the text at the bottom of the screen is displayed, select `Go to Untitled project (unsafe)` and follow the on-screen instructions to approve the project after it is moved.
+Once the text at the bottom of the screen is displayed, select `Go to Untitled project (unsafe)` and follow the on-screen instructions to approve the project after it is moved.  
 (The text in the screen will say `Untitled project`, but the wording will vary depending on the project name you set).
 
 ![Approve](./images/en/setup-06.png)
