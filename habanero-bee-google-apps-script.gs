@@ -6,7 +6,7 @@ const getSheetData = sheetName => {
   const keys = rows.splice(0,1)[0];
 
   return rows.map((row) => {
-    var obj = {};
+    const obj = {};
     row.map((item, index) => {
       obj[String(keys[index])] = String(item);
     });
