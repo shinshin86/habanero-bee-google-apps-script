@@ -128,6 +128,8 @@ Enter the meta information for the site.
 * dateFormat
   * If you specify `publishedDate`, you can specify the format of the date, which can be selected from the select box in the Google Spreadsheet, or you can enter your own format. However, you can only specify the year (YYYY), month (MM), and day (DD).
   * If not specified, the default format `YYYY/MM/DD` will be used.
+* relatedContentTitle
+  * Specifies the title text to be used for related link items. If not specified, it will be displayed as `Related Content`.
 
 ## How to release
 
