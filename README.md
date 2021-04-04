@@ -77,6 +77,19 @@ For `general` and `meta`, you only need to add values to the second column, but 
   * This is option of set background color. If you do not want to change it, you do not need to enter it.
 * pageTopButtonColor
   * This is option of set page top button color. If you do not want to change it, you do not need to enter it.
+* enableRelatedContentLink
+  * If you want to show related links, enter `1` in this field.
+* relatedContentTitle
+  * Specifies the title text to be used for related link items. If not specified, it will be displayed as `Related Content`.
+* externalLinkTitle
+  * Specifies the title text to be used for external link items. If not specified, it will be displayed as `External link`.
+* tagLinkTitle
+  * Specify the title text to be used for tag. If not specified, it will be displayed as `Tag`.
+* copyrightText
+  * Please set the copyright. If not specified, `Habanero Bee` will be set.
+* copyrightLink
+  * Enter the URL of the website you want to go to when you click on the copyright notice. If not specified, the page of `Habanero Bee` will be set.
+
 
 #### meta
 

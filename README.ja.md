@@ -75,6 +75,18 @@
   * 背景色を設定するオプションです。変更しない場合は入力する必要はありません。
 * pageTopButtonColor
   * ページトップボタンの色を設定するオプションです。変更しない場合は入力する必要はありません。
+* enableRelatedContentLink
+  * 関連リンクを表示する場合は、こちらの項目に `1` を入力してください。
+* relatedContentTitle
+  * 関連リンク項目に利用するタイトルテキストを指定します。指定がない場合は `Related Content` と表示されます。
+* externalLinkTitle
+  * 外部リンク項目に利用するタイトルテキストを指定します。指定がない場合は `External link` と表示されます。
+* tagLinkTitle
+  * タグ項目に利用するタイトルテキストを指定します。指定がない場合は `Tag` と表示されます。
+* copyrightText
+  * コピーライトを設定してください。指定がない場合は `Habanero Bee` が設定されます。
+* copyrightLink
+  * コピーライト表記をクリックした際に移動するウェブサイトのURLを入力してください。指定がない場合は、`Habanero Bee`のページが設定されます。
 
 #### meta
 
