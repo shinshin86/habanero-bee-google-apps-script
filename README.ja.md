@@ -79,6 +79,8 @@
   * 関連リンクを表示する場合は、こちらの項目に `1` を入力してください。
 * relatedContentTitle
   * 関連リンク項目に利用するタイトルテキストを指定します。指定がない場合は `Related Content` と表示されます。
+* externalLinkTitle
+  * 外部リンク項目に利用するタイトルテキストを指定します。指定がない場合は `External link` と表示されます。
 
 #### meta
 

@@ -81,6 +81,8 @@ For `general` and `meta`, you only need to add values to the second column, but 
   * If you want to show related links, enter `1` in this field.
 * relatedContentTitle
   * Specifies the title text to be used for related link items. If not specified, it will be displayed as `Related Content`.
+* externalLinkTitle
+  * Specifies the title text to be used for external link items. If not specified, it will be displayed as `External link`.
 
 #### meta
 
