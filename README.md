@@ -85,6 +85,10 @@ For `general` and `meta`, you only need to add values to the second column, but 
   * Specifies the title text to be used for external link items. If not specified, it will be displayed as `External link`.
 * tagLinkTitle
   * Specify the title text to be used for tag. If not specified, it will be displayed as `Tag`.
+* copyrightText
+  * Please set the copyright. If not specified, `Habanero Bee` will be set.
+* copyrightLink
+  * Enter the URL of the website you want to go to when you click on the copyright notice. If not specified, the page of `Habanero Bee` will be set.
 
 
 #### meta
