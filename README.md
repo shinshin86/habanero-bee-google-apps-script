@@ -88,7 +88,7 @@ For `general` and `meta`, you only need to add values to the second column, but 
 * copyrightText
   * Please set the copyright. If not specified, `Habanero Bee` will be set.
 * copyrightLink
-  * Enter the URL of the website you want to go to when you click on the copyright notice. If not specified, the page of `Habanero Bee` will be set.
+  * Enter the URL of the website to which the user will be directed when clicking on the copyright notation. If you specify a link in the copyright, please make sure to specify the text as well. If both text and link are not specified, the page of `Habanero Bee` will be set. Also, if you set only `copyrightText`, it will be just a text.
 
 
 #### meta
