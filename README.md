@@ -109,6 +109,9 @@ Enter the meta information for the site.
   * If you want to set up Google Analytics, please enter it.
 * googleSiteVerificationCode
   * If you do not want to set up Google Analytics, but only Google Search Console, please set up a `Google Site Verification Code` here.
+* googleAdsenseCode
+  * If you want to set up Google AdSense, please enter it.
+  * Enter only the value of `data-ad-client`.
 * noindex
   * If you do not want search engines to index your site, enter `1` in this field.
 
