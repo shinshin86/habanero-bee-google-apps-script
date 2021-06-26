@@ -106,6 +106,9 @@
   * Googleアナリティクスを設定したい方は入力してください。
 * googleSiteVerificationCode
   * Googleアナリティクスを設定せずにGoogle Search Consoleだけを設定したい場合は、こちらで`Google Site Verification Code`を設定してください。
+* googleAdsenseCode
+  * Google アドセンスを設定したい方はこちらにコードを入力してください。
+  * コードは `data-ad-client` の値だけを入力してください。
 * noindex
   * 検索エンジンにインデックスさせたくない場合は、こちらの項目に`1`を入力してください。
 
